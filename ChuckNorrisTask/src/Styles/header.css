@@ -1,0 +1,110 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgb(48, 48, 48);
+  height: 300px;
+  position: relative;
+  background: url("http://christianbackgrounds.info/new_images/23/63934895-chuck-norris-wallpapers.jpg");
+  background-size: cover;
+  border-bottom: 10px solid black;
+}
+
+.logo {
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  font-size: 20px;
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 10px 70px 10px 70px;
+}
+
+.link:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.hd_btn {
+  width: 100%;
+  border-radius: 0px;
+  border-right: 1px solid black;
+  transition-duration: 0.2s;
+  background-color: rgba(255, 255, 255, 0.671);
+  /* box-shadow: inset 0 0 20px 2px grey; */
+}
+
+.hd_btn:hover {
+  background-color: rgb(121, 206, 180);
+}
+
+#home {
+  border-radius: 20px 0px 0px 0px;
+}
+
+#about {
+  border-radius: 0px 20px 0px 0px;
+  border-right: none;
+}
+
+.logo {
+  border: 5px solid rgb(114, 112, 112);
+  background-image: url("http://christianbackgrounds.info/new_images/23/63934895-chuck-norris-wallpapers.jpg");
+  background-size: cover;
+  border-radius: 100px;
+  font-weight: bold;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  margin-left: 10%;
+  transition-duration: 1s;
+}
+
+.logo:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+
+.logo-container {
+  display: flex;
+  /* border: 1px solid white; */
+  /* color: white; */
+}
+#h1 {
+  margin-left: 330px;
+  padding: 20px;
+  margin-right: auto;
+  /* color:white; */
+  margin-top: -5px;
+  transform: rotate(-5deg);
+  /* background: rgb(255, 255, 255); */
+  mix-blend-mode: screen;
+  font-size: 60px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f8f8f8, 0 0 25px #fdfdfd,
+    0 0 30px #777275, 0 0 40px #050505, 0 0 50px #e60073;
+  transition-duration: 1s;
+}
+
+#h1:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px #fff, 0 0 30px #f8f8f8,
+    0 0 40px #fdfdfd, 0 0 50px #777275, 0 0 60px #050505, 0 0 70px #e60073;
+}

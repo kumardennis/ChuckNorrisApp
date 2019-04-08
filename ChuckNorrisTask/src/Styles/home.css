@@ -1,0 +1,62 @@
+.home {
+  /* border: 1px solid; */
+  margin: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* color: white; */
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.big-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  background: #ace600;
+  height: 100px;
+  width: 500px;
+  border-radius: 50px 0px;
+  transition-duration: 0.2s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.big-btn:hover {
+  box-shadow: 0 0 20px 1px white;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+  }
+  50% {
+    -webkit-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+  }
+}
